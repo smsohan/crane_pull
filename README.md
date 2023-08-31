@@ -4,6 +4,7 @@ A simple repo to show how to use `crane` to pull an image without relying on the
 Run the following command to see it in action:
 
 ```bash
+#cd <path/to/root/of/this/repo>
 docker run -v $PWD:/go/src -it --rm golang /bin/bash /go/src/run.sh
 ```
 
